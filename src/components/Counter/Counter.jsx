@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Counter = () => {
     return (
         <>
             <section className='mb-[162px]'>
-                <div className='max-w-container mx-auto flex justify-between'>
+                <div className='max-w-container mx-auto flex justify-between items-end'>
                     <div className='flex flex-col items-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
                             <path d="M35.7001 49.2V43.8H30.3001V49.2H35.7001ZM38.4001 49.2H27.6001V42.8782C22.0625 40.9209 17.9068 36.0382 16.9898 30.087C10.7335 29.0114 6.00012 23.9896 6.00012 17.9571V11.4C6.00012 9.90883 7.20895 8.7 8.70012 8.7H16.8001C16.8001 7.20883 18.009 6 19.5001 6H46.5001C47.9913 6 49.2001 7.20883 49.2001 8.7H57.3001C58.7913 8.7 60.0001 9.90883 60.0001 11.4V17.9571C60.0001 23.9896 55.2667 29.0114 49.0104 30.087C48.0935 36.0382 43.9378 40.9209 38.4001 42.8782V49.2ZM19.5001 8.7V27.6C19.5001 35.0558 25.5443 41.1 33.0001 41.1C40.456 41.1 46.5001 35.0558 46.5001 27.6V8.7H19.5001ZM57.3001 17.9571V11.4H49.2001V27.2967C53.8865 26.2201 57.3001 22.4079 57.3001 17.9571ZM16.8001 11.4H8.70012V17.9571C8.70012 22.4079 12.1138 26.2201 16.8001 27.2967V11.4Z" fill="#222132" />
@@ -17,8 +17,8 @@ const Counter = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" width="49" height="50" viewBox="0 0 49 50" fill="none">
                             <path d="M30.3333 9.19532L16.3333 3.11003V40.4493C16.524 40.4324 16.718 40.4626 16.8975 40.5399L30.3333 46.3285V9.19532ZM32.6667 10.1113V47.3338L46.6667 40.8653V3.76898L33.1728 10.0038C33.0125 10.0779 32.8394 10.1138 32.6667 10.1113ZM14.001 4.20676L2.33333 9.69332V46.7931L14.0745 41.4105C14.0264 41.2826 14 41.1441 14 40.9994V4.2767C14 4.2533 14.0003 4.22999 14.001 4.20676ZM1.65286 49.6719C0.880064 50.0262 0 49.4615 0 48.6114V8.94474C0 8.4886 0.265833 8.0743 0.680477 7.88421L15.8324 0.77282C16.1326 0.635218 16.477 0.631249 16.7802 0.761897L32.6668 7.66724L47.344 0.88566C48.1171 0.528449 49 1.0931 49 1.94474V41.6114C49 42.0663 48.7356 42.4797 48.3227 42.6705L33.1728 49.6705C32.872 49.8095 32.5262 49.814 32.2219 49.6829L16.4506 42.8881L1.65286 49.6719Z" fill="#222132" />
                         </svg>
-                        <h3 className='font-raleway text-[39px] font-extrabold text-primary leading-[110%] mt-5 mb-1.5'>26<span>+</span></h3>
-                        <h4 className='font-raleway text-xl font-bold text-[#464558] leading-[120%]'>Awards  won</h4>
+                        <h3 className='font-raleway text-[39px] font-extrabold text-primary leading-[110%] mt-5 mb-1.5'>65<span>+</span></h3>
+                        <h4 className='font-raleway text-xl font-bold text-[#464558] leading-[120%]'>States covered</h4>
                     </div>
                     <div className='flex flex-col items-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="41" height="49" viewBox="0 0 41 49" fill="none">
@@ -32,8 +32,8 @@ const Counter = () => {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <h3 className='font-raleway text-[39px] font-extrabold text-primary leading-[110%] mt-5 mb-1.5'>26<span>+</span></h3>
-                        <h4 className='font-raleway text-xl font-bold text-[#464558] leading-[120%]'>Awards  won</h4>
+                        <h3 className='font-raleway text-[39px] font-extrabold text-primary leading-[110%] mt-5 mb-1.5'>689<span>K+</span></h3>
+                        <h4 className='font-raleway text-xl font-bold text-[#464558] leading-[120%]'>Happy clients</h4>
                     </div>
                     <div className='flex flex-col items-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" viewBox="0 0 50 40" fill="none">
@@ -47,8 +47,8 @@ const Counter = () => {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <h3 className='font-raleway text-[39px] font-extrabold text-primary leading-[110%] mt-5 mb-1.5'>26<span>+</span></h3>
-                        <h4 className='font-raleway text-xl font-bold text-[#464558] leading-[120%]'>Awards  won</h4>
+                        <h3 className='font-raleway text-[39px] font-extrabold text-primary leading-[110%] mt-5 mb-1.5'>130<span>M+</span></h3>
+                        <h4 className='font-raleway text-xl font-bold text-[#464558] leading-[120%]'>Goods delivered</h4>
                     </div>
                     <div className='flex flex-col items-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="42" viewBox="0 0 50 42" fill="none">
@@ -62,8 +62,8 @@ const Counter = () => {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <h3 className='font-raleway text-[39px] font-extrabold text-primary leading-[110%] mt-5 mb-1.5'>26<span>+</span></h3>
-                        <h4 className='font-raleway text-xl font-bold text-[#464558] leading-[120%]'>Awards  won</h4>
+                        <h3 className='font-raleway text-[39px] font-extrabold text-primary leading-[110%] mt-5 mb-1.5'>130<span>M+</span></h3>
+                        <h4 className='font-raleway text-xl font-bold text-[#464558] leading-[120%]'>Business hours</h4>
                     </div>
                 </div>
             </section>
