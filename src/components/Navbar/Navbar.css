@@ -1,0 +1,7 @@
+nav {
+    background: radial-gradient(9917.17% 140.83% at 0.83% 0%, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.15) 100%);
+}
+
+nav .search:hover svg path {
+    fill: white;
+}
