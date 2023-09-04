@@ -4,5 +4,5 @@
 
 body {
     background: linear-gradient(180deg, #FFF7E7 0%, #FFF1DC 100%);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }

@@ -3,5 +3,13 @@ nav {
 }
 
 nav .search:hover svg path {
-    fill: white;
+    /* fill: white; */
+}
+
+.input {
+    transition: 1s ease;
+}
+
+.hellohi {
+    /* transition: 10s ease; */
 }
