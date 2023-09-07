@@ -9,7 +9,8 @@ export default {
       colors: {
         'primary': '#F95C19',
         'borderColor': '#FFB800',
-        'overlay': '#0A090DCC'
+        'overlay': '#0A090DCC',
+        'navItems': 'rgba(255, 255, 255, .7)'
       },
       maxWidth: {
         'container': '1320px',
