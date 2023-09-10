@@ -31,7 +31,7 @@ export default {
         'video': "url('./src/assets/video.jpg')"
       },
       screens: {
-        'tablet': '650px',
+        'tablet': '740px',
         // => @media (min-width: 640px) { ... }
       },
     },

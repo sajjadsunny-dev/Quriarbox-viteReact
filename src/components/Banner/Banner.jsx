@@ -11,7 +11,7 @@ const Banner = () => {
                         <p className='font-raleway font-regular text-[#4D4D4D] text-lg tablet:text-xl leading-[120%] w-80 mt-4 mb-10 sm:mt-2 sm:mb-5 tablet:mt-4 tablet:mb-10'>We deliver your products safely to your home in a reasonable time.</p>
                         <button className='px-5 py-3 bg-primary rounded-[5px] font-oxanium text-xl font-bold text-white hover:text-primary hover:bg-white duration-500 ease-liner'>Get Started</button>
                     </div>
-                    <img className='absolute right-0 bottom-0 md:translate-x-24 sm:w-[500px] tablet:w-[85%] lg:w-fit' src={bannerImg} alt="banner image" />
+                    <img className='absolute right-0 bottom-0 md:translate-x-24 sm:w-[450px] tablet:w-[85%] lg:w-fit' src={bannerImg} alt="banner image" />
                 </div>
             </section>
         </>
