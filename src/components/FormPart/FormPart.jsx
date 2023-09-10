@@ -6,7 +6,7 @@ const FormPart = () => {
     return (
         <>
             <section>
-                <div className="max-w-container m-auto px-3 md:px-0">
+                <div className="max-w-container m-auto px-3">
                     <div className='w-full md:w-[872px] mx-auto grid grid-cols-2 gap-6'>
                         <div className='col-span-2 sm:col-span-1 pb-[31px]'>
                             <img src={formIlustrator} alt="formIlustrator" />

@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <footer className='bg-[#222132]'>
                 <div className='py-16 md:py-[84px]'>
-                    <div className='max-w-container mx-auto px-3 md:px-5 sm:flex justify-between items-center'>
+                    <div className='max-w-container mx-auto px-3 sm:flex justify-between items-center'>
                         <div className=''>
                             <h2 className='font-raleway text-[39px] font-extrabold text-white leading-[110%]'>Get an update every week</h2>
                             <p className='font-raleway text-base font-regular text-[#C5C5D2] leading-[145%] md:w-[450px] mt-3 mb-5 md-mb-0'>We ensure that your product is delivered in the safest possible manner, at the correct location, at the right time.</p>
@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='bg-[#2F2E41] pt-[50px] pb-14'>
-                    <div className='max-w-container mx-auto px-3 md:px-5 sm:flex justify-between items-center'>
+                    <div className='max-w-container mx-auto px-3 sm:flex justify-between items-center'>
                         <div>
                             <img src={footerLogo} alt="footerLogo" />
                             <p className='font-raleway text-base font-semibold text-[#9291A1] leding-[22px] mt-[18px] w-[190px]'>The most trusted Courier
@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='py-4 md:py-[30px]'>
-                    <div className='max-w-container mx-auto px-3 md:px-5 sm:flex justify-between'>
+                    <div className='max-w-container mx-auto px-3 sm:flex justify-between'>
                         <h5 className='font-raleway text-[13px] font-medium text-[#DBDBE9]'>All rights Reserved © Your Company, 2021</h5>
                         <h5 className='font-raleway text-[13px] font-medium text-[#DBDBE9] mt-1 sm:mt-0'>Made with Vite+React by <span className='font-extrabold text-primary'>Sajjad Hossain Sunny</span></h5>
                     </div>

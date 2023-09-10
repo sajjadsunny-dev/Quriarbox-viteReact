@@ -4,7 +4,7 @@ const Counter = () => {
     return (
         <>
             <section className='mb-24 md:mb-[162px]'>
-                <div className='max-w-container mx-auto grid grid-cols-2 sm:grid-cols-6 md:grid-cols-5 gap-6 px-3 md:px-0'>
+                <div className='max-w-container mx-auto grid grid-cols-2 sm:grid-cols-6 md:grid-cols-5 gap-6 px-3'>
                     <div className='flex flex-col items-center justify-between mt-4 md:mt-0 sm:col-span-2 md:col-span-1'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
                             <path d="M35.7001 49.2V43.8H30.3001V49.2H35.7001ZM38.4001 49.2H27.6001V42.8782C22.0625 40.9209 17.9068 36.0382 16.9898 30.087C10.7335 29.0114 6.00012 23.9896 6.00012 17.9571V11.4C6.00012 9.90883 7.20895 8.7 8.70012 8.7H16.8001C16.8001 7.20883 18.009 6 19.5001 6H46.5001C47.9913 6 49.2001 7.20883 49.2001 8.7H57.3001C58.7913 8.7 60.0001 9.90883 60.0001 11.4V17.9571C60.0001 23.9896 55.2667 29.0114 49.0104 30.087C48.0935 36.0382 43.9378 40.9209 38.4001 42.8782V49.2ZM19.5001 8.7V27.6C19.5001 35.0558 25.5443 41.1 33.0001 41.1C40.456 41.1 46.5001 35.0558 46.5001 27.6V8.7H19.5001ZM57.3001 17.9571V11.4H49.2001V27.2967C53.8865 26.2201 57.3001 22.4079 57.3001 17.9571ZM16.8001 11.4H8.70012V17.9571C8.70012 22.4079 12.1138 26.2201 16.8001 27.2967V11.4Z" fill="#222132" />

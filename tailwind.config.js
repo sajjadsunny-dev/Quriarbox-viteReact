@@ -29,7 +29,11 @@ export default {
       },
       backgroundImage: {
         'video': "url('./src/assets/video.jpg')"
-      }
+      },
+      screens: {
+        'tablet': '650px',
+        // => @media (min-width: 640px) { ... }
+      },
     },
   },
   plugins: [],

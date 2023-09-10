@@ -7,7 +7,7 @@ const Testimonial = () => {
     return (
         <>
             <section className='my-24 md:mt-[149px] md:mb-[266px]'>
-                <div className='max-w-container mx-auto px-3 md:px-0 relative'>
+                <div className='max-w-container mx-auto px-3 relative'>
                     <div className=''>
                         <h3 className='font-oxanium text-2xl md:text-3xl font-bold text-primary text-center'>SERVICES</h3>
                         <h2 className='font-raleway text-3xl md:text-[40px] font-extrabold text-[#11111D] text-center mb-14 md:mb-[86px] mt-1.5 md:mt-[11px]'>Our services for you</h2>

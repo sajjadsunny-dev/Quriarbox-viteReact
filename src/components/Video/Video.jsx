@@ -5,7 +5,7 @@ const Video = () => {
     return (
         <>
             <section className=''>
-                <div className='max-w-container mx-auto px-3 md:px-0'>
+                <div className='max-w-container mx-auto px-3'>
                     <div className='w-full bg-video bg-start md:bg-center bg-cover rounded-[16px] overflow-hidden'>
                         <div className="w-full h-full px-5 pt-7 pb-16 sm:px-20 sm:py-16 md:px-[347px] md:py-[147px] bg-overlay">
                             <div className='h-[50px] md:h-[86px] w-[50px] md:w-[86px] rounded-full bg-primary flex items-center justify-center cursor-pointer text-white text-4xl md:text-[50px] mx-auto hover:bg-[#DC4200] duration-100'><BsPlayFill /></div>

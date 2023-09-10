@@ -7,7 +7,7 @@ const Services = () => {
     return (
         <>
             <section className='md:mt-[168px] my-24 md:mb-48'>
-                <div className='max-w-container mx-auto px-3 md:px-0'>
+                <div className='max-w-container mx-auto px-3'>
                     <div className=''>
                         <h3 className='font-oxanium text-2xl md:text-3xl font-bold text-primary text-center'>SERVICES</h3>
                         <h2 className='font-raleway text-3xl md:text-[40px] font-extrabold text-[11111D] text-center mb-14 md:mb-[86px] mt-1.5 md:mt-[11px]'>Our services for you</h2>
