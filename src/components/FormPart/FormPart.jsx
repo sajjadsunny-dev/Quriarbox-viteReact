@@ -11,7 +11,7 @@ const FormPart = () => {
                         <div className='col-span-2 sm:col-span-1 pb-[31px]'>
                             <img src={formIlustrator} alt="formIlustrator" />
                             <h3 className='font-oxanium text-2xl sm:text-base md:text-2xl font-bold text-primary mt-[13px]'>REQUEST A CALLBACK</h3>
-                            <h2 className='font-raleway text-[39px] sm:text-3xl md:text-[39px] font-extrabold text-[#222132] mb-[9px] mt-5 leading-[110%]'>We will contact in the shortest time.</h2>
+                            <h2 className='font-raleway text-[39px] sm:text-3xl md:text-[39px] font-extrabold text-[#222132] mb-[9px] mt-5 sm :leading-[110%]'>We will contact in the shortest time.</h2>
                             <p className='font-raleway text-[25px] sm:text-2xl md:text-[25px] font-semibold text-[#9291A1] leading-[120%]'>Monday to Friday, 9am-5pm.</p>
                         </div>
                         <div className='col-span-2 sm:col-span-1'>
